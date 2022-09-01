@@ -1,0 +1,30 @@
+
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+body {
+    background: #f7f7f7;
+  }
+  
+  .form-box {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    background: #ffffff;
+    border: 10px solid #f2f2f2;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+  }
+
+  /* footer */
+#footer{
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+}

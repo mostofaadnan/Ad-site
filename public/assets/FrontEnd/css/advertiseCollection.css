@@ -1,0 +1,47 @@
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+.card-title a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/*Button Three*/
+.sub-main {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.button-three {
+  position: relative;
+  background-color: #0b5ed7;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.button-three:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #97b1bf;
+  color: #000;
+}
+.date{
+  background-color: gray;
+  color: white;
+}
+
+
+/* footer */
+#footer{
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+}

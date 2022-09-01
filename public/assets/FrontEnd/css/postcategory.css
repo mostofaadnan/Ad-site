@@ -1,0 +1,26 @@
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+.category-box{
+    text-align: center;
+  
+}
+
+.category-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.category-box a:hover{
+    letter-spacing: 1px;
+    color: #4E52D0;
+    transition: .5s;
+}
+.link-bar a{
+    color: black;
+}
+.link-bar a:hover{
+    color: blue;
+}

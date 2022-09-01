@@ -1,0 +1,59 @@
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+/* header-section */
+.header-text{
+    margin-top: 10px;
+    padding: 10px 0px;
+    border: 1px dotted black;
+    border-radius: 10px;
+}
+.header-text h3{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.header-text p{
+    color: black;
+}
+
+/* category */
+.category-box{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.category-name{
+    width: 100%;
+    background-color: #4E52D0;
+    padding: 10px 0px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+.category-name img{
+    margin-top: -8px;
+}
+.category-name h3 {
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+}
+
+.category-state-name a{
+    color: black !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.category-state-name a:hover{
+    color: #4E52D0 !important;
+}
+.category-state-name ul li{
+    list-style: none;
+    margin: 0;
+}
+
+/* footer */
+#footer{
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+}

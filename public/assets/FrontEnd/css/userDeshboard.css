@@ -1,0 +1,59 @@
+
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+.header-nav{
+    padding: 10px 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+    color: red;
+}
+.header-nav a{
+      color: black;
+      padding-right: 15px;
+      font-weight: 500;
+}
+.header-nav a:hover{
+      color: red;
+      padding-right: 15px;
+      font-weight: 500;
+}
+.header-nav i:hover{
+      color: black;
+      
+}
+
+.counter-box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.counting-post{
+    margin-top: 10px;
+}
+.info-head{
+    color: red;
+}
+.counter{
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+}
+.counter-name{
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+}
+.table{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.user-info{
+    margin-top: 20px;
+}
+
+/* footer */
+#footer{
+    margin-top: 7%;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+}

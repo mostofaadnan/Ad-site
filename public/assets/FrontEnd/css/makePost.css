@@ -1,0 +1,161 @@
+/* Webpixels CSS */
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+.link-bar a {
+  color: black;
+}
+.link-bar a:hover {
+  color: blue;
+}
+.make-post {
+  margin: 20px 0;
+}
+.post-title {
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.post-title label {
+  color: #000;
+}
+.post-title input {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+}
+.post-title textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.user-box {
+  margin: 20px 0px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.user-info label {
+  color: #000;
+}
+.user-info input {
+  margin: 5px 0px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.service-box {
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.service-info {
+
+}
+.service-info p {
+  display: inline-block;
+  color: #000;
+  font-weight: 500;
+  margin-right: 120px;
+}
+.service-info label {
+    display: inline;
+    color: #000;
+    font-weight: 500;
+
+}
+.service-info input {
+  display: inline;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.custom{
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-input {
+  width:350px;
+  padding:20px;
+  background:#fff;
+  box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
+              3px 3px 7px rgba(94, 104, 121, 0.377);
+  margin: 10px 0px;
+}
+.form-input input {
+  display:block;
+
+}
+
+
+.pricing-table input[type="radio"] {
+  display: none;
+}
+
+.pricing-table label {
+  height: 100%;
+  display: block;
+  background: white;
+  border: 2px solid #4E52D0;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px rgba(161, 170, 166, 0.5);
+  position: relative;
+  cursor: pointer;
+}
+.pricing-table input[type="radio"]:checked + label {
+  background: #4E52D0;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px rgba(0, 255, 128, 0.75);
+  cursor: pointer;
+
+}
+.pricing-table input[type="radio"]:checked + label::after {
+  color: rgba(61, 63, 67, 1);
+  font-family: FontAwesome;
+  border: 2px solid #4E52D0;
+  content: "\f00c";
+  font-size: 18px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+}
+.pricing-table input[type="radio"]#control_05:checked + label {
+  background: red;
+  border-color: red;
+  cursor: pointer;
+
+}
+.pricing-table p {
+  font-weight: 500;
+  cursor: pointer;
+
+}
+@media only screen and (max-width: 700px) {
+ .pricing-table section {
+    flex-direction: column;
+ }
+}
+
+
+

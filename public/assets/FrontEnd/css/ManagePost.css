@@ -1,0 +1,23 @@
+.header-nav{
+    padding: 10px 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+    color: red;
+}
+.header-nav a{
+      color: black;
+      padding-right: 15px;
+      font-weight: 500;
+      text-decoration: none;
+}
+.header-nav a:hover{
+      color: red;
+      padding-right: 15px;
+      font-weight: 500;
+}
+.header-nav i:hover{
+      color: black;
+      
+}
+.info-head{
+    color: red;
+}
